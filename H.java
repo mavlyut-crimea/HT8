@@ -16,7 +16,7 @@ public class H {
             for (int j = 0; j < a - 1; j++) {
                 f.push(i);
             }
-            f.push(i + ((a > 1) ? 1 : 0));
+            f.push(i + 1);
             maxA = Math.max(maxA, a);
             sumA += a;
             pref[i + 1] = pref[i] + a;
